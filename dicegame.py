@@ -9,11 +9,6 @@
 # If the comparison matches the user's guess, then display a "you won" message and play the sound of a joyous bell ringing.
 # If the comparison does not match the user's guess, then display a "you lost" message and play the sound of a sad bell ringing.
 # The user can then guess again.
-#
-# The dice images are from http://www.clker.com/clipart-dice-1.html
-# The bell sounds are from http://www.freesound.org/people/juskiddink/sounds/146722/
-#
-# Written by Eric P. Scott for CSE 20211, Lab 10, March 2016
 
 import pygame
 import random
