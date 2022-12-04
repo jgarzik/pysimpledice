@@ -46,20 +46,20 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Dice Game")
 
 # Load the dice images
-dice1 = pygame.image.load("dice1.png").convert()
-dice2 = pygame.image.load("dice2.png").convert()
-dice3 = pygame.image.load("dice3.png").convert()
-dice4 = pygame.image.load("dice4.png").convert()
-dice5 = pygame.image.load("dice5.png").convert()
-dice6 = pygame.image.load("dice6.png").convert()
+dice1 = pygame.image.load("./assets/dice1.png").convert()
+dice2 = pygame.image.load("./assets/dice2.png").convert()
+dice3 = pygame.image.load("./assets/dice3.png").convert()
+dice4 = pygame.image.load("./assets/dice4.png").convert()
+dice5 = pygame.image.load("./assets/dice5.png").convert()
+dice6 = pygame.image.load("./assets/dice6.png").convert()
 
 # Load the button images
-up_button = pygame.image.load("up_button.png").convert()
-down_button = pygame.image.load("down_button.png").convert()
+up_button = pygame.image.load("./assets/up_button.png").convert()
+down_button = pygame.image.load("./assets/down_button.png").convert()
 
 # Load the bell sounds
-bell_sound = pygame.mixer.Sound("bell.wav")
-sad_bell_sound = pygame.mixer.Sound("sad_bell.wav")
+bell_sound = pygame.mixer.Sound("./assets/bell.wav")
+sad_bell_sound = pygame.mixer.Sound("./assets/sad_bell.wav")
 
 # Set the current dice values
 dice1_value = 1
