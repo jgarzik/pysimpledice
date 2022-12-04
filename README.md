@@ -1,0 +1,2 @@
+# pysimpledice
+Simple dice pygame
